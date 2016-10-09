@@ -1,0 +1,42 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.3", 
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "@types/core-js": "^0.9.34",
+    "@types/react": "^0.14.39",
+    "@types/react-dom": "^0.14.17",
+    "@types/react-redux": "^4.4.32",
+    "@types/react-router": "^2.0.37",
+    "@types/redux": "^3.6.31",
+    "@types/redux-actions": "^0.8.30",
+    "@types/redux-promise": "^0.5.23",
+    "@types/redux-thunk": "^2.1.31",
+    "@types/whatwg-fetch": "0.0.32",
+    "@types/whatwg-streams": "0.0.1",
+    "core-js": "^2.4.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "redux": "^3.6.0",
+    "redux-actions": "^0.12.0",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.1.0",
+    "ts-loader": "^0.8.2",
+    "whatwg-fetch": "^1.0.0"
+  }
+}
